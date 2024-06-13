@@ -1,5 +1,7 @@
 (fp_lib_table
   (version 7)
-  (lib (name "BadgePirates")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePiratesFootprint.pretty")(options "")(descr ""))
-  (lib (name "BadgePiratesLogos")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePiratesLogos.pretty")(options "")(descr ""))
+  (lib (name "BadgePirates")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePirates_Common_Library/BadgePiratesFootprint.pretty")(options "")(descr ""))
+  (lib (name "BadgePiratesLogos")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePirates_Common_Library/BadgePiratesLogos.pretty")(options "")(descr ""))
+  (lib (name "AMAMW")(type "KiCad")(uri "${KIPRJMOD}/Lib/AMAMW/drawing.pretty")(options "")(descr ""))
+  (lib (name "drawing")(type "KiCad")(uri "${KIPRJMOD}/Lib/AMAMW/drawing.pretty")(options "")(descr ""))
 )
