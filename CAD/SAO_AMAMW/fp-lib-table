@@ -1,0 +1,5 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "BadgePirates")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePiratesFootprint.pretty")(options "")(descr ""))
+  (lib (name "BadgePiratesLogos")(type "KiCad")(uri "${KIPRJMOD}/Lib/BadgePiratesLogos.pretty")(options "")(descr ""))
+)
