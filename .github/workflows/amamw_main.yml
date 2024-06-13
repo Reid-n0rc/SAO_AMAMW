@@ -1,0 +1,113 @@
+name: "KiCad CI/CD for SAO_AMAMW board"
+
+# Controls when the action will run. Triggers the workflow on push or pull request
+# events but only for the master branch
+on:
+  workflow_dispatch:
+    paths:
+      - './CAD/SAO_AMAMW/*.kicad_sch'
+      - './CAD/SAO_AMAMW/*.kicad_pcb'
+      - './CAD/SAO_AMAMW/*.kibot.yaml'
+      - './CAD/SAO_AMAMW/Makefile'
+      - './.github/workflows/amamw_main.yml'
+  push:
+    paths:
+      - 'CAD/SAO_AMAMW/*.kicad_sch'
+      - 'CAD/SAO_AMAMW/*.kicad_pcb'
+      - 'CAD/SAO_AMAMW/*.kibot.yaml'
+      - 'CAD/SAO_AMAMW/Makefile'
+      - '.github/workflows/amamw_main.yml'
+  pull_request:
+    paths:
+      - 'CAD/SAO_AMAMW/*.kicad_sch'
+      - 'CAD/SAO_AMAMW/*.kicad_pcb'
+      - 'CAD/SAO_AMAMW/*.kibot.yaml'
+      - 'CAD/SAO_AMAMW/Makefile'
+      - '.github/workflows/amamw_main.yml'
+
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  ERC:
+    container: ghcr.io/inti-cmnb/kicad7_auto:dev
+    runs-on: ubuntu-latest
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run ERC
+      run: |
+        make -C CAD/SAO_AMAMW erc
+
+    - name: Retrieve results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: ERC_Output
+        path: CAD/SAO_AMAMW/Fabrication
+
+  DRC:
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:dev
+    needs: ERC
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run DRC
+      run: |
+        make -C CAD/SAO_AMAMW drc
+
+    - name: Retrieve results
+      if: always()
+      uses: actions/upload-artifact@v3
+      with:
+        name: DRC_Output
+        path: CAD/SAO_AMAMW/Fabrication
+
+  FabSch:
+    name: Schematic fabrication files
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:dev
+    needs: ERC
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run schematic stuff
+      run: |
+        make -C CAD/SAO_AMAMW sch_fab
+
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: FabSch_Output
+        path: |
+          CAD/SAO_AMAMW/Fabrication/
+          CAD/SAO_AMAMW/kibot_error.log
+        if-no-files-found: warn
+
+  FabPCB:
+    if: always()
+    name: PCB fabrication files
+    runs-on: ubuntu-latest
+    container: ghcr.io/inti-cmnb/kicad7_auto:latest
+    needs: DRC
+
+    steps:
+    - uses: actions/checkout@v3
+
+    - name: Run PCB stuff
+      run: |
+        make -C CAD/SAO_AMAMW pcb_fab
+
+    - name: Retrieve results
+      if: ${{ always() }}
+      uses: actions/upload-artifact@v3
+      with:
+        name: FabPCB_Output
+        path: |
+          CAD/SAO_AMAMW/Fabrication/
+          CAD/SAO_AMAMW/kibot_error.log
+        if-no-files-found: warn
+

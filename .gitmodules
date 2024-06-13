@@ -1,3 +1,6 @@
 [submodule "CAD/SAO_AMAMW/Lib"]
 	path = CAD/SAO_AMAMW/Lib
 	url = https://github.com/BadgePiratesLLC/BadgePirates_Common_Library
+[submodule "CAD/SAO_AMAMW/Lib/BadgePirates_Common_Library"]
+	path = CAD/SAO_AMAMW/Lib/BadgePirates_Common_Library
+	url = https://github.com/BadgePiratesLLC/BadgePirates_Common_Library
