@@ -188,7 +188,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/878340619_sd.pdf"
+		(property "Datasheet" "https://www.cvilux.com/uploads/spec/100/291/SPCH031.pdf"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -212,7 +212,7 @@
 				)
 			)
 		)
-		(property "MFG" "Molex"
+		(property "MFG" "Cvilux USA"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -224,7 +224,7 @@
 				)
 			)
 		)
-		(property "MPN" "0878340619"
+		(property "MPN" "CH87062V200"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -236,7 +236,7 @@
 				)
 			)
 		)
-		(property "Vendor 1" "LCSC"
+		(property "Vendor 1" "Digikey"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -260,7 +260,7 @@
 				)
 			)
 		)
-		(property "Vendor PN 1" "C9136"
+		(property "Vendor PN 1" "2987-CH87062V200-ND"
 			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
@@ -19760,7 +19760,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R9"
-			(at 1.016 8.636 360)
+			(at 1.016 8.636 0)
 			(layer "B.SilkS")
 			(uuid "0bf3a7f7-6fa4-45a3-83cc-3224d98e33f6")
 			(effects
@@ -19772,7 +19772,7 @@
 			)
 		)
 		(property "Value" "66.5K"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "8989d677-1f64-49a2-8b4c-59defb796eb1")
 			(effects
@@ -19784,7 +19784,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "7db31026-d8ca-4572-a200-2a7315e9176d")
@@ -19796,7 +19796,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.lcsc.com/datasheet/lcsc_datasheet_2308241947_FOJAN-FRC0805J623TS_C2930305.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e6f353f0-c627-4bd2-8959-9be21f74d396")
@@ -19808,7 +19808,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "9bfeac60-d517-45cf-a123-006323344130")
@@ -19820,7 +19820,7 @@
 			)
 		)
 		(property "MFG" "FOJAN"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "118aad62-bb72-43e0-9a09-75d8a28c9383")
@@ -19833,7 +19833,7 @@
 			)
 		)
 		(property "MPN" "FRC0805J623TS"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "c5d27949-97e7-4a77-bc62-1e46bf52dbca")
@@ -19846,7 +19846,7 @@
 			)
 		)
 		(property "Vendor 1" "LCSC"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "51ed6842-2a11-44a3-b9df-94a25ca6a520")
@@ -19859,7 +19859,7 @@
 			)
 		)
 		(property "Vendor 2" "DigiKey"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "b198c691-e5a5-4932-b893-dae485126b81")
@@ -19872,7 +19872,7 @@
 			)
 		)
 		(property "Vendor PN 1" "C2930305"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "8c504eb2-4a07-4830-921d-1e5aa555b1db")
@@ -19885,7 +19885,7 @@
 			)
 		)
 		(property "Vendor PN 2" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "6fcda71d-8f0b-4c84-bca1-4c4d53880301")
@@ -20003,7 +20003,7 @@
 			(uuid "4a6f1ffe-8f92-4aa3-8db8-9b5b35b386a7")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "ce555b81-826b-4c1c-bc16-0d024fe247f4")
 			(effects
@@ -23226,7 +23226,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 0 -1.65 360)
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "ed2552c5-eed9-44f9-92e8-2e7d1988f64c")
 			(effects
@@ -23238,7 +23238,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "a8c73275-5e1a-4527-b6b4-b95d84d3c0d4")
@@ -23250,7 +23250,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.yageo.com/upload/media/product/productsearch/datasheet/rchip/PYu-RC_Group_51_RoHS_L_12.pdf"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e04ce90e-fb1d-4c69-8863-869943df44fb")
@@ -23262,7 +23262,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "abde89a0-f177-430b-8ad2-f03e7f4158fc")
@@ -23274,7 +23274,7 @@
 			)
 		)
 		(property "MFG" "YAGEO"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "149b5377-5274-4b49-aac9-83e1b11a4f69")
@@ -23287,7 +23287,7 @@
 			)
 		)
 		(property "MPN" "RC0805FR-07100KL"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "806fddfa-ebd6-41a1-8576-c08f335798bb")
@@ -23300,7 +23300,7 @@
 			)
 		)
 		(property "Vendor 1" "LCSC"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "59cae439-91cd-4bf1-9fa9-53c23a25bce7")
@@ -23313,7 +23313,7 @@
 			)
 		)
 		(property "Vendor 2" "DigiKey"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "ebd96434-e6f2-4ad4-a4c4-74c8c92bfe1f")
@@ -23326,7 +23326,7 @@
 			)
 		)
 		(property "Vendor PN 1" "C3152173"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "4bb12df0-b18c-40ae-bf0c-d61deabf1b19")
@@ -23339,7 +23339,7 @@
 			)
 		)
 		(property "Vendor PN 2" "311-100KCRCT-ND"
-			(at 281.178 194.818 360)
+			(at 281.178 194.818 0)
 			(layer "B.Fab")
 			(hide yes)
 			(uuid "a7fbd699-0d75-4157-8188-dfd5f2f8baf3")
@@ -23457,7 +23457,7 @@
 			(uuid "ce68c374-0bb2-48a2-9701-4e27fc7dbfb5")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "1eece5b6-cf34-4f99-abd1-28cc95984108")
 			(effects

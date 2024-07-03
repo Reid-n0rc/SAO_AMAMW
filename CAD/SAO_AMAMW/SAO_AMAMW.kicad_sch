@@ -2994,7 +2994,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://tools.molex.com/pdm_docs/sd/878340619_sd.pdf"
+		(property "Datasheet" "https://www.cvilux.com/uploads/spec/100/291/SPCH031.pdf"
 			(at 63.5 43.18 0)
 			(effects
 				(font
@@ -3012,7 +3012,7 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "Molex"
+		(property "MFG" "Cvilux USA"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -3021,7 +3021,7 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "0878340619"
+		(property "MPN" "CH87062V200"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -3030,7 +3030,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 1" "LCSC"
+		(property "Vendor 1" "Digikey"
 			(at 58.42 43.18 0)
 			(effects
 				(font
@@ -3039,7 +3039,7 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN 1" "C9136"
+		(property "Vendor PN 1" "2987-CH87062V200-ND"
 			(at 58.42 43.18 0)
 			(effects
 				(font
