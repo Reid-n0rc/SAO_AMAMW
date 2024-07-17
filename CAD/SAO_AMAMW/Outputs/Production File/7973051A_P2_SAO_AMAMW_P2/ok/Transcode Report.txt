@@ -1,0 +1,123 @@
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\bo' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D100
+D11   --> D101
+D12   --> D102
+D14   --> D103
+D15   --> D104
+D16   --> D105
+D17   --> D106
+D18   --> D107
+D19   --> D108
+D20   --> D109
+D21   --> D110
+D22   --> D111
+D23   --> D112
+D24   --> D113
+D25   --> D114
+D26   --> D115
+D27   --> D116
+D28   --> D117
+D29   --> D118
+D30   --> D119
+D31   --> D120
+D32   --> D121
+D33   --> D122
+D34   --> D123
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\bs' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D124
+D11   --> D125
+D12   --> D126
+D13   --> D127
+D14   --> D128
+D15   --> D129
+D16   --> D130
+D17   --> D131
+D18   --> D132
+D19   --> D133
+D20   --> D134
+D21   --> D135
+D22   --> D136
+D23   --> D137
+D24   --> D138
+D25   --> D139
+D26   --> D140
+D27   --> D141
+D28   --> D142
+D29   --> D143
+D30   --> D144
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\drl' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D145
+D11   --> D146
+D12   --> D147
+D13   --> D148
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\ko' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D149
+D11   --> D150
+D12   --> D151
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\sk' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D152
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\tl' ----   Fri Jul  5 09:57:07 2024
+
+D12   --> D153
+D13   --> D154
+D14   --> D155
+D15   --> D156
+D16   --> D157
+D17   --> D158
+D18   --> D159
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\to' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D160
+D11   --> D161
+D12   --> D162
+D13   --> D163
+D14   --> D164
+D15   --> D165
+D16   --> D166
+D17   --> D167
+D18   --> D168
+D19   --> D169
+D20   --> D170
+D21   --> D171
+D22   --> D172
+-----------------------------------------------------------------
+
+
+   ---- Transcoding 'D:\projects\SAO_AMAMW_v2\CAD\SAO_AMAMW\Outputs\Production File\7973051A_P2_SAO_AMAMW_P2\ok\ts' ----   Fri Jul  5 09:57:07 2024
+
+D10   --> D173
+D11   --> D174
+D12   --> D175
+D13   --> D176
+D14   --> D177
+D15   --> D178
+D16   --> D179
+D17   --> D180
+D18   --> D181
+D19   --> D182
+-----------------------------------------------------------------

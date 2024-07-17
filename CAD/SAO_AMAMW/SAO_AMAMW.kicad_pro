@@ -494,7 +494,7 @@
       "plot": "Outputs/",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "",
+      "step": "SAO_AMAMW.step",
       "svg": "",
       "vrml": ""
     },
